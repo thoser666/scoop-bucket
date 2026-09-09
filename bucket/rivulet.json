@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
+  "version": "0.65.0-alpha.163",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/thoser666/Rivulet/releases/download/v0.65.0-alpha.163/rivulet-windows-x86_64-portable.zip",
+      "hash": "45649d29ec69f114fa74470bef9f15d47f46015691b1834f04f5fd6acc8f15df"
+    }
+  },
+  "architecture_note": "Windows x86_64 only; the release pipeline currently builds no arm64 Windows binaries.",
+  "bin": [
+    "rivulet-gui.exe"
+  ],
+  "shortcuts": [
+    "rivulet-gui.exe",
+    "Rivulet"
+  ],
+  "checkver": {
+    "github": "https://github.com/thoser666/Rivulet"
+  },
+  "autofix": true,
+  "description": "Rivulet - Open-source screen recorder and live streaming studio",
+  "homepage": "https://github.com/thoser666/Rivulet",
+  "license": "MIT LicenseUrl: https://github.com/thoser666/Rivulet/blob/develop/LICENSE",
+  "notes": [
+    "Rivulet is installed as a portable bundle with a bundled GStreamer runtime.",
+    "The 'rivulet' shim starts the Rivulet GUI; recordings go to the folder configured in the app."
+  ]
+}
