@@ -1,10 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
-  "version": "0.65.0-alpha.284",
+  "version": "0.65.0-alpha.287",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/thoser666/Rivulet/releases/download/v0.65.0-alpha.284/rivulet-windows-x86_64-portable.zip",
-      "hash": "49d03ce8ab4b0a785a49a16ce53f119d11fe1eaf500fe6d601351bff732210e1"
+      "url": "https://github.com/thoser666/Rivulet/releases/download/v0.65.0-alpha.287/rivulet-windows-x86_64-portable.zip",
+      "hash": "5b59a668313b722ff9664f556663b49168a81e3fe449a5de8aa63b50a61c3856"
     }
   },
   "architecture_note": "Windows x86_64 only; the release pipeline currently builds no arm64 Windows binaries.",
